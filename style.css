@@ -63,13 +63,36 @@ p, li, span, label, input, textarea {
 }
 
 /* just to center the main section */
-.greeting-wraper {
+.greeting-wrapper {
     display: grid;
     border: 2px dashed lightcoral;
     min-height: 10em;
     text-align: center;
     align-content: center;
 }
+
+.intro-wrapper {
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    -webkit-box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35); 
+box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ;
+}
+
+.nav-wrapper {
+    border: 1px dashed lightcoral;
+}
+.left-column {
+    border: 1px dashed lightcoral;
+}
+.right-column {
+    border: 1px dashed lightcoral;
+}
+
+
 
 /* right after adding width to main-container, we set up the media query for that as well. */
 @media screen and (max-width: 1200px) {
