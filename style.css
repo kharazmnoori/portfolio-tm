@@ -167,6 +167,26 @@ p, li, span, label, input, textarea {
     border: 2px solid var(--theme-border)
 }
 
+#light-mode {
+    background-color: #fff;
+}
+
+#blue-mode{
+    background-color: #192734;
+}
+
+#green-mode{
+    background-color: #78866b ;
+}
+
+#purple-mode{
+    background-color: #7E4C74;
+}
+
+.theme-dot:hover {
+    border: 5px solid var(--theme-border);
+}
+
 .right-column {
     grid-area: right-column;
 }
