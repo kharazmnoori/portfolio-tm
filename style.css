@@ -16,6 +16,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
 }
 
 a {
@@ -36,7 +37,8 @@ h6 {font-size: 16px;}
 
 
 p, li, span, label, input, textarea {
-    color: var(--secondaryColor)
+    color: var(--secondaryColor);
+    font-family: 'Roboto', sans-serif;
 }
 
 .s1 {
