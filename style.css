@@ -81,7 +81,7 @@ p, li, span, label, input, textarea {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em 30em;
+    
     grid-template-areas: 'nav-wrapper nav-wrapper'
     'left-column right-column';
 }
@@ -136,6 +136,19 @@ p, li, span, label, input, textarea {
 .left-column {
     grid-area: left-column;
 }
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+
+    /* this will ignore the size of the image to fit the container */
+    object-fit: cover;
+    
+    border: 2px solid var(--borderColor)
+}
+
 .right-column {
     grid-area: right-column;
 }
