@@ -145,8 +145,21 @@ p, li, span, label, input, textarea {
 
     /* this will ignore the size of the image to fit the container */
     object-fit: cover;
-    
+
     border: 2px solid var(--borderColor)
+}
+
+.theme-options-wrapper {
+
+}
+
+.theme-dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   -webkit-box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35); 
+    box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35); 
+    cursor: pointer;
 }
 
 .right-column {
