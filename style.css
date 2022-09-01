@@ -79,6 +79,7 @@ box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
     grid-template-areas: 'nav-wrapper nav-wrapper'
     'left-column right-column';
 }
