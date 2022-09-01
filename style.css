@@ -65,7 +65,6 @@ p, li, span, label, input, textarea {
 /* just to center the main section */
 .greeting-wrapper {
     display: grid;
-    border: 2px dashed lightcoral;
     min-height: 10em;
     text-align: center;
     align-content: center;
@@ -75,7 +74,10 @@ p, li, span, label, input, textarea {
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     -webkit-box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35); 
-box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35);
+    box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35);
+
+    border-radius: 5px 5px 0 0;
+
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,15 +88,16 @@ box-shadow: -3px 2px 12px -1px rgba(0,0,0,0.35);
 
 .nav-wrapper {
     grid-area: nav-wrapper;
-    border: 1px dashed lightcoral;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .left-column {
     grid-area: left-column;
-    border: 1px dashed lightcoral;
 }
 .right-column {
     grid-area: right-column;
-    border: 1px dashed lightcoral;
 }
 
 
