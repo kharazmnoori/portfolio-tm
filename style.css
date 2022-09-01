@@ -137,7 +137,8 @@ p, li, span, label, input, textarea {
 
 .left-column {
     grid-area: left-column;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #profile-pic {
