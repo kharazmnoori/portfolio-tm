@@ -17,6 +17,7 @@ html, body {
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
+    font-weight: 500;
 }
 
 a {
@@ -59,6 +60,15 @@ p, li, span, label, input, textarea {
 .main-container {
     width: 1200px;
     margin: 0 auto;
+}
+
+/* just to center the main section */
+.greeting-wraper {
+    display: grid;
+    border: 2px dashed lightcoral;
+    min-height: 10em;
+    text-align: center;
+    align-content: center;
 }
 
 /* right after adding width to main-container, we set up the media query for that as well. */
