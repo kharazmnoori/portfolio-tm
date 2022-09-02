@@ -11,6 +11,7 @@
     --theme-border: #24292e;
     --previewBg: rgb(251, 249, 243, 0.8);
     --previewShadow: #f0ead6; 
+    --buttonColor: black;
 }
 
 html, body {
@@ -312,6 +313,11 @@ p, li, span, label, input, textarea {
     display: block;
     object-fit: cover;
 }
+
+
+
+
+
 
 /* right after adding width to main-container, we set up the media query for that as well. */
 @media screen and (max-width: 1200px) {
