@@ -255,11 +255,16 @@ p, li, span, label, input, textarea {
 }
 
 .about-wrapper {
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-#about {
-
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
 }
 
 
