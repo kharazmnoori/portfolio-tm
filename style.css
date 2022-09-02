@@ -9,6 +9,7 @@
     --secondaryText: #4b5156;
 
     --theme-border: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
 }
 
 html, body {
@@ -40,7 +41,7 @@ h6 {font-size: 16px;}
 
 
 p, li, span, label, input, textarea {
-    color: var(--secondaryColor);
+    color: var(--mainText);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -196,8 +197,18 @@ p, li, span, label, input, textarea {
     border: 5px solid var(--theme-border);
 }
 
+
+/* RIGHT SECTION */
+
 .right-column {
     grid-area: right-column;
+}
+
+#preview {
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
 }
 
 
