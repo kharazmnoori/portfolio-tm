@@ -254,6 +254,14 @@ p, li, span, label, input, textarea {
 
 }
 
+.about-wrapper {
+    
+}
+
+#about {
+
+}
+
 
 /* right after adding width to main-container, we set up the media query for that as well. */
 @media screen and (max-width: 1200px) {
