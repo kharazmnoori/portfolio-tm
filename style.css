@@ -10,6 +10,7 @@
 
     --theme-border: #24292e;
     --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6; 
 }
 
 html, body {
@@ -202,6 +203,16 @@ p, li, span, label, input, textarea {
 
 .right-column {
     grid-area: right-column;
+    display: grid;
+    align-content: center;
+}
+
+#preview-shadow {
+    background-color: var(--previewShadow);
+    width: 300px;
+    height: 150px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 #preview {
@@ -209,7 +220,7 @@ p, li, span, label, input, textarea {
     border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
-    position: relative
+    position: relative;
 }
 
 .corner {
@@ -243,6 +254,11 @@ p, li, span, label, input, textarea {
 
 /* right after adding width to main-container, we set up the media query for that as well. */
 @media screen and (max-width: 1200px) {
+    .main-container{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 800px) {
     .main-container{
         width: 95%;
     }
