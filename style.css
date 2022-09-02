@@ -205,6 +205,9 @@ p, li, span, label, input, textarea {
     grid-area: right-column;
     display: grid;
     align-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #preview-shadow {
@@ -259,7 +262,17 @@ p, li, span, label, input, textarea {
     }
 }
 @media screen and (max-width: 800px) {
-    .main-container{
-        width: 95%;
+    .intro-wrapper {
+    
+    grid-template-columns: 1fr;
+    
+    grid-template-areas: 'nav-wrapper'
+    'left-column'
+    'right-column';
     }
+
+    .right-column{
+        justify-content: center;
+    }
+     
 }
