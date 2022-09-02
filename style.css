@@ -259,6 +259,7 @@ p, li, span, label, input, textarea {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-bottom: 50px;
     padding-top: 50px;
+    gap: 100px;
 }
 
 #skills {
@@ -267,6 +268,50 @@ p, li, span, label, input, textarea {
     background-color: var(--previewShadow);
 }
 
+.social-links {
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#social-img{
+    width: 300px;
+}
+
+.post-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.post {
+    border: 1px solid var(--borderColor);
+    
+}
+
+.post-preview {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.post-title{
+    color: black;
+    margin: 0;
+}
+
+.post-intro{
+    color: #4b5156;
+    font-size: 14px;
+}
+
+
+.thumbnail {
+    width: 100%;
+    height: 180px;
+    display: block;
+    object-fit: cover;
+}
 
 /* right after adding width to main-container, we set up the media query for that as well. */
 @media screen and (max-width: 1200px) {
